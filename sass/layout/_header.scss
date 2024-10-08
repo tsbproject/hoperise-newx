@@ -20,6 +20,7 @@ HEADER SECTION STYLES
 .header-top {
     background: $color-primary none repeat scroll 0 0;
     height: 50px;
+    justify-items: space-around;
    
     
 }
@@ -66,6 +67,16 @@ HEADER SECTION STYLES
     padding: 0 40px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+}
+
+
+.icon-phone {
+  color: $color-grey-1
+}
+
+
+.icon-email {
+  color: $color-grey-1;
 }
  
 

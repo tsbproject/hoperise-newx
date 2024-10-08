@@ -17,6 +17,11 @@
           
     }
 
+    @include media-breakpoint-down(xm) {
+      margin-left: 2rem;
+          
+    }
+
 
     &__item {
       margin-top: 3rem;
@@ -56,7 +61,7 @@
   
     @include media-breakpoint-down(sm) {
       width: 20rem;
-      margin-left: 10rem;
+      margin-left: 5rem;
   
       background-color: $color-secondary;
       color: $color-primary-dark;
@@ -71,7 +76,15 @@
   
     @include media-breakpoint-down(sm) {
       width: 25rem;
-      margin-left: 7rem;
+      margin-left: 5rem;
+  
+      background-color: $color-secondary;
+      color: $color-primary-dark;
+    }
+
+    @include media-breakpoint-down(xm) {
+      width: 25rem;
+      margin-left: 2rem;
   
       background-color: $color-secondary;
       color: $color-primary-dark;
@@ -94,6 +107,14 @@
       background-color: $color-secondary;
       color: $color-primary-dark;
     }
+
+    @include media-breakpoint-down(xm) {
+      width: 27rem;
+      margin-left: 3rem;
+  
+      background-color: $color-secondary;
+      color: $color-primary-dark;
+    }
   
   }
   
@@ -106,6 +127,14 @@
     @include media-breakpoint-down(sm) {
       width: 27rem;
       margin-left: 5rem;
+  
+      background-color: $color-secondary;
+      color: $color-primary-dark;
+    }
+
+    @include media-breakpoint-down(xm) {
+      width: 27rem;
+      margin-left: 4rem;
   
       background-color: $color-secondary;
       color: $color-primary-dark;
@@ -127,13 +156,13 @@
 
   .offcanvas {
     max-width: 60%;
-    max-height:70% ;
-    background: $color-primary-light;
+    max-height:100% ;
+    background: $color-primary;
     
   }
 
   .btn-close {
-    font-size: 3rem;
+    font-size: 2rem;
     color: $color-secondary-white;
     background-color: $color-secondary-white;
   }

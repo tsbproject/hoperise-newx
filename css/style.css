@@ -1060,6 +1060,16 @@ body h1, body h2, body h3, body h4, body h5 {
   padding: 0;
   text-align: center;
 }
+@media (max-width: 575.98px) {
+  .footer .footer_bottom p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 397.98px) {
+  .footer .footer_bottom p {
+    font-size: 10px;
+  }
+}
 
 .footer .footer_bottom p a {
   color: #2ad880;
@@ -1079,6 +1089,7 @@ HEADER SECTION STYLES
 .header-top {
   background: #003425 none repeat scroll 0 0;
   height: 50px;
+  justify-items: space-around;
 }
 
 .contact > p {
@@ -1116,6 +1127,14 @@ HEADER SECTION STYLES
   padding: 0 40px;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
+}
+
+.icon-phone {
+  color: rgba(255, 255, 255, 0.3490196078);
+}
+
+.icon-email {
+  color: rgba(255, 255, 255, 0.3490196078);
 }
 
 .navbar-brand {
@@ -1161,6 +1180,11 @@ HEADER SECTION STYLES
     margin-left: 5rem;
   }
 }
+@media (max-width: 397.98px) {
+  .navbar-nav {
+    margin-left: 2rem;
+  }
+}
 .navbar-nav__item {
   margin-top: 3rem;
   position: relative;
@@ -1189,7 +1213,7 @@ HEADER SECTION STYLES
 @media (max-width: 575.98px) {
   .dropdown-who {
     width: 20rem;
-    margin-left: 10rem;
+    margin-left: 5rem;
     background-color: #b08128;
     color: #011b13;
   }
@@ -1203,7 +1227,15 @@ HEADER SECTION STYLES
 @media (max-width: 575.98px) {
   .dropdown-do {
     width: 25rem;
-    margin-left: 7rem;
+    margin-left: 5rem;
+    background-color: #b08128;
+    color: #011b13;
+  }
+}
+@media (max-width: 397.98px) {
+  .dropdown-do {
+    width: 25rem;
+    margin-left: 2rem;
     background-color: #b08128;
     color: #011b13;
   }
@@ -1222,6 +1254,14 @@ HEADER SECTION STYLES
     color: #011b13;
   }
 }
+@media (max-width: 397.98px) {
+  .dropdown-training {
+    width: 27rem;
+    margin-left: 3rem;
+    background-color: #b08128;
+    color: #011b13;
+  }
+}
 
 .dropdown-portfolio {
   background-color: #b08128;
@@ -1232,6 +1272,14 @@ HEADER SECTION STYLES
   .dropdown-portfolio {
     width: 27rem;
     margin-left: 5rem;
+    background-color: #b08128;
+    color: #011b13;
+  }
+}
+@media (max-width: 397.98px) {
+  .dropdown-portfolio {
+    width: 27rem;
+    margin-left: 4rem;
     background-color: #b08128;
     color: #011b13;
   }
@@ -1247,12 +1295,12 @@ HEADER SECTION STYLES
 
 .offcanvas {
   max-width: 60%;
-  max-height: 70%;
-  background: #057152;
+  max-height: 100%;
+  background: #003425;
 }
 
 .btn-close {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #ffffff;
   background-color: #ffffff;
 }
