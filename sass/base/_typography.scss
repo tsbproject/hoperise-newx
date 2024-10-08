@@ -1,4 +1,5 @@
 .section-about {
+    justify-content: space-evenly;
     margin-bottom: 4rem;
 }
 
@@ -50,6 +51,8 @@
 
     &__text {
         font-size: $default-primary-font;
+        text-align: justify;
+        text-justify: newspaper;
     }
 
     &__img {

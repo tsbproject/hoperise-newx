@@ -21,6 +21,7 @@ body h1, body h2, body h3, body h4, body h5 {
 }
 
 .section-about {
+  justify-content: space-evenly;
   margin-bottom: 4rem;
 }
 
@@ -60,6 +61,8 @@ body h1, body h2, body h3, body h4, body h5 {
 }
 .about-main__text {
   font-size: 1.7rem;
+  text-align: justify;
+  text-justify: newspaper;
 }
 .about-main__img {
   width: 100%;
@@ -1321,6 +1324,26 @@ HEADER SECTION STYLES
   background-attachment: fixed;
   font-size: 4rem;
   color: #ffffff;
+}
+@media (max-width: 991.98px) {
+  .banner__about {
+    height: 40rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .banner__about {
+    height: 35rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .banner__about {
+    height: 35rem;
+  }
+}
+@media (max-width: 397.98px) {
+  .banner__about {
+    height: 35rem;
+  }
 }
 .banner__text {
   font-size: 4rem;
