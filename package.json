@@ -1,0 +1,16 @@
+{
+  "name": "hoperise-charity",
+  "version": "1.0.0",
+  "description": "official website of hoperise charity worldwide inc.",
+  "main": "index.js",
+  "scripts": {
+     
+    "build-css": "sass sass/main.scss css/style.css",
+    "watch-css": "sass --watch sass/main.scss css/style.css"
+  },
+  "author": "tsb",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.79.1"
+  }
+}

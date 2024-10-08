@@ -1,0 +1,39 @@
+.our_cuauses .our_cuauses_single .item p span {
+    color: #01d262;
+}
+
+.our_cuauses .our_cuauses_single .item p.progress-top {
+    text-align: center
+}
+
+.our_cuauses .our_cuauses_single .item .for_padding {
+    padding: 0 30px
+}
+
+.our_cuauses .progress {
+    background-color: #e5e5e5;
+    height: 10px;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.our_cuauses .progress-bar {
+    background-color: #01d262;
+}
+
+.our_cuauses .progress-text {
+    margin: 0 auto;
+    position: relative;
+}
+
+.our_cuauses .progress-text .progress-left {
+    left: 0;
+    margin-top: 15px;
+    position: absolute;
+}
+
+.our_cuauses .progress-text .progress-right {
+    margin-top: 15px;
+    position: absolute;
+    right: 0;
+}

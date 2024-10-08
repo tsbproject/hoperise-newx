@@ -1,0 +1,37 @@
+.banner {
+    position: relative;
+
+    &__about {
+        height: 50rem;
+        background-image:linear-gradient( 105deg, 
+        rgba($color-primary, 10),
+        rgba($color-primary-light, .2) 100%,
+        
+        transparent 100%), 
+        
+        
+        url(../img/hoperise-slide5.png);
+        background-size: cover; // or 100% value
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-attachment: fixed;
+        font-size:$header-primary ;
+        color: $color-secondary-white;
+
+        
+    }
+
+  
+
+
+    &__text {
+        font-size: $header-primary;
+        color: $color-secondary-white;
+        position: absolute;
+        top: 20rem;
+    }
+
+
+   
+   
+}

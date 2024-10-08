@@ -1,0 +1,132 @@
+
+/*
+==============================
+HEADER SECTION STYLES
+==============================
+*/
+
+
+
+
+
+.header{
+  background-color: $color-primary;
+  height: 150px;
+  
+
+}
+
+
+.header-top {
+    background: $color-primary none repeat scroll 0 0;
+    height: 50px;
+   
+    
+}
+
+.contact>p {
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+ .header-top .contact p a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+  .contact p span {
+    margin-right: 15px;
+    text-align: center;
+    
+}
+
+
+
+
+
+.join-us>p {
+    background: $color-primary-light none repeat scroll 0 0;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+
+ .header-top .join-us p a {
+    background: $color-primary-light none repeat scroll 0 0;
+    color: #fff;
+    float: right;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 40px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+ 
+
+
+
+
+
+
+
+
+.navbar-brand {
+     margin-top: -6rem;
+   
+   
+     &__logo {
+      width: 8rem;
+      margin-left: 11rem;
+      margin-top:7rem;
+  
+      @include media-breakpoint-down(sm) {
+        width: 9rem;
+        margin-left: 2.2rem;
+  
+      }
+    }
+  
+    &__title {
+      font-size: $header-tertiary;
+      text-transform: uppercase;
+      position: relative;
+      top: 0;
+      right: -2rem;
+  
+      @include media-breakpoint-down(sm) {
+        display: none;
+        font-size: .7rem;
+        position: relative;
+        top: 3rem;
+        right: 1rem;
+      }
+      
+    }
+  }
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  

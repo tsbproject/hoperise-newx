@@ -1,0 +1,96 @@
+.focus-grid {
+    padding: 0 4rem;
+
+    @include media-breakpoint-down(xm) {
+        padding: 0 1.5rem;
+
+    }
+
+    &__col {
+        height: 30rem;
+        padding: 1rem 2rem;
+        background-color: $color-grey-3;
+        box-shadow: 0 2rem 6rem rgba(0,0,0,.3);
+        border-radius: 2rem;
+
+    }
+
+    &__icon {
+        font-size: 6rem;
+        color: $color-primary-light;
+        border: .2rem solid $color-primary-light ;
+        border-radius: 4rem;
+        border-width: .6rem;
+        margin-bottom: 2rem;
+        
+        position: relative;
+        top: 0;
+        right: 0;
+        bottom: 40rem;
+        left: 10rem;
+
+    
+        &:hover {
+            color: $color-secondary;
+        }
+
+        @include media-breakpoint-down(lg) {
+            position: relative;
+            top: 0;
+            right: 0;
+            bottom: 40rem;
+            left: 16rem;
+
+        }
+
+
+        @include media-breakpoint-down(md) {
+            position: relative;
+            top: 0;
+            right: 0;
+            bottom: 40rem;
+            left: 29rem;
+
+        }
+
+        @include media-breakpoint-down(sm) {
+            position: relative;
+            top: 0;
+            right: 0;
+            bottom: 40rem;
+            left: 19rem;
+
+        }
+
+        @include media-breakpoint-down(xm) {
+            position: relative;
+            top: 0;
+            right: 0;
+            bottom: 40rem;
+            left: 10rem;
+
+        }
+
+    }
+
+    &__header {
+        font-size: $header-tertiary;
+        font-weight: 600;
+        font-family: "Oxygen", sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        color: $color-secondary;
+        // border-bottom: .1rem solid $color-primary-light;
+        border-style: outs;
+
+    }
+
+
+    &__text {
+        font-size: $default-primary-font-small;
+        text-align: center;
+        
+
+    }
+
+}

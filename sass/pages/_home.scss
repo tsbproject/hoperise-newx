@@ -1,0 +1,57 @@
+.section-focus {
+    margin-bottom: 4rem;
+}
+
+
+
+.our-focus {
+    margin-bottom: 8rem;
+   
+   
+    @include media-breakpoint-down(md) {
+        margin-bottom: 4rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 4rem;
+    }
+
+    &__header {
+        font-size: $header-primary;
+        font-weight: 600;
+        text-align: center;
+        font-family: "Oxygen", sans-serif;
+        text-transform: uppercase;
+        color: $color-primary-light;
+
+    }
+
+    &__text {
+        font-size: $default-primary-font;
+        font-family: "Lora", serif;
+        color: $color-secondary-black;
+        text-align: center;
+
+
+    }
+}
+
+hr {
+    width: 35%;
+    height: .2rem;
+    background-color: $color-primary-light;
+    text-align: center;
+    margin: auto;
+}
+
+.hr-small {
+    width: 15%;
+    height: .2rem;
+    background-color: $color-primary-light;
+    text-align: center;
+    margin: auto;
+}
+
+.strong-style {
+    color: $color-secondary
+}

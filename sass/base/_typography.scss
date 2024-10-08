@@ -1,0 +1,68 @@
+.section-about {
+    margin-bottom: 4rem;
+}
+
+
+
+.vision-mission {
+    margin-bottom: 8rem;
+   
+   
+    @include media-breakpoint-down(md) {
+        margin-bottom: 4rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 4rem;
+    }
+
+    &__header {
+        font-size: $header-secondary;
+        font-weight: 600;
+        text-align: center;
+        font-family: "Oxygen", sans-serif;
+        text-transform: uppercase;
+        color: $color-primary-light;
+
+    }
+
+    &__text {
+        font-size: $default-primary-font;
+        font-family: "Lora", serif;
+        color: $color-secondary-black;
+        text-align: center;
+
+
+    }
+
+  
+}
+
+
+.about-main {
+
+    &__header {
+        font-size: $header-secondary;
+        color: $color-secondary;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__text {
+        font-size: $default-primary-font;
+    }
+
+    &__img {
+        width: 100%;
+        height: auto;
+        border: .5rem solid $color-secondary;
+        border-radius: 2rem;
+        box-shadow: 0 1.4rem 2rem rgba(5, 4, 0,.8);
+
+
+    }
+
+    &__bullet {
+        font-size: $default-primary-font-small;
+    }
+}
