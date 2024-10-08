@@ -401,8 +401,19 @@ body h1, body h2, body h3, body h4, body h5 {
   border-radius: 1rem;
   padding-bottom: 2rem;
 }
+@media (max-width: 575.98px) {
+  .our-objective__item {
+    height: 55rem;
+  }
+}
 .our-objective__img {
   height: 25rem;
+}
+@media (max-width: 575.98px) {
+  .our-objective__img {
+    max-width: 100%;
+    height: 25rem;
+  }
 }
 .our-objective__header {
   font-size: 2rem;
@@ -414,14 +425,33 @@ body h1, body h2, body h3, body h4, body h5 {
 .our-objective__header::hover {
   color: #ffffff;
 }
+@media (max-width: 575.98px) {
+  .our-objective__header {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #057152;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 397.98px) {
+  .our-objective__header {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #057152;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
 .our-objective__text {
   font-size: 1.7rem;
   padding: 0 2rem;
 }
 @media (max-width: 575.98px) {
   .our-objective__text {
-    font-size: 1.4rem;
-    padding: 0 2rem;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 1rem;
   }
 }
 @media (max-width: 397.98px) {
@@ -447,6 +477,23 @@ body h1, body h2, body h3, body h4, body h5 {
 }
 .our-objective__borderes:hover {
   background-color: #057152;
+}
+@media (max-width: 575.98px) {
+  .our-objective__borderes {
+    font-size: 1rem;
+    font-family: "Roboto" sans-serif;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    top: 1rem;
+    left: 4rem;
+    background-color: #ffffff;
+    border-radius: 3rem;
+    border-style: ridge;
+    width: 17rem;
+    height: 4.5rem;
+    padding: 1.5rem 3rem;
+  }
 }
 .our-objective__borderes a {
   text-decoration: none;
@@ -526,7 +573,8 @@ body h1, body h2, body h3, body h4, body h5 {
 
 .carosal_bottom {
   background-image: url(../img/carosal_bottom_bg.jpg);
-  background-size: 100% 100%;
+  background-image: url(img/carosal_bottom_bg.jpg);
+  background-size: 100%;
   height: 575px;
 }
 
@@ -607,6 +655,24 @@ body h1, body h2, body h3, body h4, body h5 {
   height: 600px;
   text-align: center;
   width: 50%;
+}
+@media (max-width: 991.98px) {
+  .donors .donors_input {
+    background: #057152 none repeat scroll 0 0;
+    float: left;
+    height: 600px;
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (max-width: 575.98px) {
+  .donors .donors_input {
+    background: #057152 none repeat scroll 0 0;
+    float: left;
+    height: 600px;
+    text-align: center;
+    width: 100%;
+  }
 }
 @media (max-width: 397.98px) {
   .donors .donors_input {
@@ -717,11 +783,19 @@ body h1, body h2, body h3, body h4, body h5 {
   float: left;
   width: 50%;
   height: 600px;
-  background-image: linear-gradient(100deg, #057152, rgba(176, 129, 40, 0.3) 105%, transparent 60%), url(/img/hoperise-slide1.png);
+  background-image: linear-gradient(100deg, #057152, rgba(176, 129, 40, 0.3) 105%, transparent 60%), url(../img/hoperise-slide1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
   box-shadow: 0 1.5rem 4rem rgba(6, 6, 6, 0.2);
+}
+@media (max-width: 575.98px) {
+  .donors .donors_image {
+    background: #eceff1 none repeat scroll 0 0;
+    float: left;
+    width: 0;
+    height: 600px;
+  }
 }
 @media (max-width: 397.98px) {
   .donors .donors_image {
@@ -729,7 +803,6 @@ body h1, body h2, body h3, body h4, body h5 {
     float: left;
     width: 0;
     height: 600px;
-    box-shadow: 0 1.5rem 4rem rgba(6, 6, 6, 0.2);
   }
 }
 
@@ -1197,6 +1270,16 @@ HEADER SECTION STYLES
   text-transform: uppercase;
   color: #057152;
 }
+@media (max-width: 397.98px) {
+  .our-focus__header {
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Oxygen", sans-serif;
+    text-transform: uppercase;
+    color: #057152;
+  }
+}
 .our-focus__text {
   font-size: 1.7rem;
   font-family: "Lora", serif;
@@ -1210,6 +1293,15 @@ hr {
   background-color: #057152;
   text-align: center;
   margin: auto;
+}
+@media (max-width: 397.98px) {
+  hr {
+    width: 32%;
+    height: 0.2rem;
+    background-color: #057152;
+    text-align: center;
+    margin: auto;
+  }
 }
 
 .hr-small {

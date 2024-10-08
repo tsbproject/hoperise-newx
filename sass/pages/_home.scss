@@ -24,6 +24,17 @@
         text-transform: uppercase;
         color: $color-primary-light;
 
+        @include media-breakpoint-down(xm) {
+
+            font-size: $header-tertiary;
+            font-weight: 600;
+            text-align: center;
+            font-family: "Oxygen", sans-serif;
+            text-transform: uppercase;
+            color: $color-primary-light;
+
+        }
+
     }
 
     &__text {
@@ -42,6 +53,16 @@ hr {
     background-color: $color-primary-light;
     text-align: center;
     margin: auto;
+
+    @include media-breakpoint-down(xm) {
+
+        width: 32%;
+        height: .2rem;
+        background-color: $color-primary-light;
+        text-align: center;
+        margin: auto;
+
+    }
 }
 
 .hr-small {
@@ -50,6 +71,8 @@ hr {
     background-color: $color-primary-light;
     text-align: center;
     margin: auto;
+
+    
 }
 
 .strong-style {
