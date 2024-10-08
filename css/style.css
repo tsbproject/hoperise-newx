@@ -415,6 +415,12 @@ body h1, body h2, body h3, body h4, body h5 {
     height: 15rem;
   }
 }
+@media (max-width: 397.98px) {
+  .our-objective__img {
+    max-width: 100%;
+    height: 20rem;
+  }
+}
 .our-objective__header {
   font-size: 2rem;
   font-weight: 700;
