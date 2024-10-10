@@ -1,6 +1,14 @@
 .banner {
     position: relative;
 
+
+    &__text {
+        font-size: $header-primary;
+        color: $color-secondary-white;
+        position: absolute;
+        top: 20rem;
+    }
+
    
 
     &__about {
@@ -40,15 +48,56 @@
         
     }
 
+
+    
+
+
+    &__policy {
+        height: 50rem;
+        background-image:linear-gradient( 105deg, 
+        rgba($color-primary, 10),
+        rgba($color-primary-light, .2) 100%,
+        
+        transparent 100%), 
+        
+        
+        url(../img/hoperise-slide5);
+        background-size: cover; // or 100% value
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-attachment: fixed;
+        font-size:$header-primary ;
+        color: $color-secondary-white;
+
+        @include media-breakpoint-down(lg) {
+            height: 40rem;
+        }
+
+        @include media-breakpoint-down(md) {
+            height: 35rem;
+        }
+
+        @include media-breakpoint-down(sm) {
+            height: 35rem;
+        }
+
+
+        @include media-breakpoint-down(xm) {
+            height: 35rem;
+        }
+
+        
+    }
+
+
+   
+
+
+
   
 
 
-    &__text {
-        font-size: $header-primary;
-        color: $color-secondary-white;
-        position: absolute;
-        top: 20rem;
-    }
+    
 
 
    

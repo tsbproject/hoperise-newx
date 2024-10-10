@@ -1,6 +1,9 @@
 
 .navbar {
     background-color: $color-secondary-white;
+
+
+
     
     
 }
@@ -14,6 +17,8 @@
 
     @include media-breakpoint-down(sm) {
       margin-left: 5rem;
+
+      
           
     }
 
@@ -34,6 +39,8 @@
       }
 
      
+
+     
   
     }
   
@@ -44,12 +51,17 @@
       text-transform: uppercase;
       text-decoration: none;
 
+
+     
+
   
       @include media-breakpoint-down(sm) {
         color: $color-secondary-white;
       }
     }
   }
+
+
   
   
   
@@ -57,16 +69,55 @@
     background-color: $color-secondary;
     width: 35rem;
     position: absolute;
-  
-  
+
+   
+
+
     @include media-breakpoint-down(sm) {
       width: 20rem;
       margin-left: 5rem;
   
       background-color: $color-secondary;
       color: $color-primary-dark;
+
+      
     }
   }
+
+  .dropdown-menu .dropdown-item{
+   
+
+    &:hover {
+      background-color: $color-secondary-white
+    }
+
+
+    @include media-breakpoint-down(sm) {
+              &:hover {
+                color: $color-secondary-white
+              }
+    }
+
+    
+    @include media-breakpoint-down(xm) {
+      &:hover {
+        color: $color-secondary-white
+      }
+}
+  }
+
+
+  .dropdown:hover .dropdown-menu {
+    @include media-breakpoint-down(xm) {
+         display: block;
+      }
+      
+  }
+
+
+
+
+  
   
   .dropdown-do {
     background-color: $color-secondary;
@@ -143,11 +194,21 @@
   }
   
   
-  .dropdown-item {
+  .dropdown-item  {
     font-size: $default-primary-font-small;
+
+ 
+
+
+    &:hover {
+      background-color: $color-secondary-white
+    }
     
   
   }
+
+  
+ 
   
   
   .navbar-toggler {

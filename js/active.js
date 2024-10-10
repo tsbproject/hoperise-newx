@@ -86,7 +86,7 @@
          },
      });
 
-     $('.carosal_bottom_single').owlCarousel({
+     $('.carosal_volunteer_single').owlCarousel({
          loop: true,
          margin: 10,
          nav: true,

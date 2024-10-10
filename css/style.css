@@ -20,6 +20,11 @@ body h1, body h2, body h3, body h4, body h5 {
   font-family: "Oxygen" sans-serif;
 }
 
+::selection {
+  background-color: #057152;
+  color: #ffffff;
+}
+
 .section-about {
   justify-content: space-evenly;
   margin-bottom: 4rem;
@@ -529,6 +534,68 @@ body h1, body h2, body h3, body h4, body h5 {
   color: #ffffff;
 }
 
+.carosal_volunteer {
+  background-image: linear-gradient(105deg, #b08128, rgba(5, 113, 82, 0.8) 100%, transparent 70%), url(../img/hoperise-slide4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 45rem;
+  margin-top: 1.5rem;
+}
+
+.carosal_volunteer .item {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.carosal_volunteer .item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.carosal_volunteer .item p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 28px;
+}
+
+.carosal_volunteer .item h5 {
+  margin-top: 21px;
+}
+
+.carosal_volunteer .item h5 i {
+  color: #ffffff;
+  font-size: 60px;
+}
+
+.carosal_volunteer .item h4 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 13px;
+  text-transform: uppercase;
+}
+
+.carosal_volunteer .item h6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.carosal_volunteer .owl-theme .owl-nav,
+.carosal_volunteer .owl-theme .owl-dots {
+  display: none;
+}
+
 .owl-theme .owl-nav {
   margin: 50px 0;
 }
@@ -595,66 +662,6 @@ body h1, body h2, body h3, body h4, body h5 {
 .volunteer_area .owl-theme .owl-nav i:hover {
   background: #01d262;
   color: #fff;
-}
-
-.carosal_bottom {
-  background-image: url(../img/carosal_bottom_bg.jpg);
-  background-image: url(img/carosal_bottom_bg.jpg);
-  background-size: 100%;
-  height: 575px;
-}
-
-.carosal_bottom .item {
-  max-width: 750px;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 80px;
-}
-
-.carosal_bottom .item img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-
-.carosal_bottom .item p {
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 30px;
-  margin-top: 28px;
-}
-
-.carosal_bottom .item h5 {
-  margin-top: 21px;
-}
-
-.carosal_bottom .item h5 i {
-  color: #1dbb6b;
-  font-size: 60px;
-}
-
-.carosal_bottom .item h4 {
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  margin-top: 13px;
-  text-transform: uppercase;
-}
-
-.carosal_bottom .item h6 {
-  font-family: "Roboto", sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  color: #fff;
-}
-
-.carosal_bottom .owl-theme .owl-nav,
-.carosal_bottom .owl-theme .owl-dots {
-  display: none;
 }
 
 .footer_carosal {
@@ -1222,6 +1229,26 @@ HEADER SECTION STYLES
   }
 }
 
+.dropdown-menu .dropdown-item:hover {
+  background-color: #ffffff;
+}
+@media (max-width: 575.98px) {
+  .dropdown-menu .dropdown-item:hover {
+    color: #ffffff;
+  }
+}
+@media (max-width: 397.98px) {
+  .dropdown-menu .dropdown-item:hover {
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 397.98px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+
 .dropdown-do {
   background-color: #b08128;
   width: 50rem;
@@ -1291,6 +1318,9 @@ HEADER SECTION STYLES
 .dropdown-item {
   font-size: 1.4rem;
 }
+.dropdown-item:hover {
+  background-color: #ffffff;
+}
 
 .navbar-toggler {
   margin-right: 3rem;
@@ -1314,6 +1344,12 @@ HEADER SECTION STYLES
 
 .banner {
   position: relative;
+}
+.banner__text {
+  font-size: 4rem;
+  color: #ffffff;
+  position: absolute;
+  top: 20rem;
 }
 .banner__about {
   height: 50rem;
@@ -1345,11 +1381,35 @@ HEADER SECTION STYLES
     height: 35rem;
   }
 }
-.banner__text {
+.banner__policy {
+  height: 50rem;
+  background-image: linear-gradient(105deg, #003425, rgba(5, 113, 82, 0.2) 100%, transparent 100%), url(../img/hoperise-slide5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-attachment: fixed;
   font-size: 4rem;
   color: #ffffff;
-  position: absolute;
-  top: 20rem;
+}
+@media (max-width: 991.98px) {
+  .banner__policy {
+    height: 40rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .banner__policy {
+    height: 35rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .banner__policy {
+    height: 35rem;
+  }
+}
+@media (max-width: 397.98px) {
+  .banner__policy {
+    height: 35rem;
+  }
 }
 
 .section-focus {
