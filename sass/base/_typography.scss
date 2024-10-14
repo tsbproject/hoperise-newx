@@ -69,3 +69,49 @@
         font-size: $default-primary-font-small;
     }
 }
+
+
+.section-policy {
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+}
+
+
+
+.policy {
+    margin-bottom: 8rem;
+   
+   
+    @include media-breakpoint-down(md) {
+        margin-bottom: 4rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 4rem;
+    }
+
+    &__header {
+        font-size: $header-secondary;
+        font-weight: 600;
+        text-align: center;
+        font-family: "Oxygen", sans-serif;
+        text-transform: uppercase;
+        color: $color-primary-light;
+
+    }
+
+    &__text {
+        font-size: $default-primary-font;
+        font-family: "Lora", serif;
+        color: $color-secondary-black;
+        text-align: normal;
+
+
+    }
+
+    &__bullet {
+        font-size: $default-primary-font-small;
+    }
+
+  
+}

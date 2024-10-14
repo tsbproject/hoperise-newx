@@ -28,6 +28,19 @@ body {
   }
 }
 
+h1, h2, h3 {
+    color: $color-primary-light;
+    margin-top: 3rem;
+    
+}
+ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+ol {
+    list-style-type: decimal;
+}
+
 ::selection {
     background-color: $color-primary-light;
     color: $color-secondary-white;
