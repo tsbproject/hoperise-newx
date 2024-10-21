@@ -864,6 +864,19 @@ ol {
   margin-top: 45px;
   padding: 15px 40px;
 }
+@media (max-width: 575.98px) {
+  .donors .donors_input input[type=submit] {
+    background: #ffffff none repeat scroll 0 0;
+    border: 2px solid #057152;
+    border-radius: 10px;
+    color: #057152;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0.7rem;
+    padding: 8px 40px;
+  }
+}
 @media (max-width: 397.98px) {
   .donors .donors_input input[type=submit] {
     background: #ffffff none repeat scroll 0 0;
@@ -873,8 +886,8 @@ ol {
     font-family: "Roboto", sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
-    margin-top: 1rem;
-    padding: 15px 40px;
+    margin-top: 0.7rem;
+    padding: 5px 40px;
   }
 }
 
@@ -1097,6 +1110,16 @@ button:hover {
   background: #2e2e2e;
   padding-top: 80px;
 }
+@media (max-width: 767.98px) {
+  .footer {
+    text-align: center;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer {
+    text-align: center;
+  }
+}
 @media (max-width: 397.98px) {
   .footer {
     text-align: center;
@@ -1104,6 +1127,61 @@ button:hover {
 }
 .footer__logo {
   width: 8rem;
+}
+@media (max-width: 767.98px) {
+  .footer__logo {
+    text-align: center;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer__logo {
+    position: relative;
+    left: 10rem;
+  }
+}
+@media (max-width: 397.98px) {
+  .footer__logo {
+    position: relative;
+    left: 1rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .footer__text {
+    text-align: center;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer__text {
+    position: relative;
+    left: 10rem;
+  }
+}
+@media (max-width: 397.98px) {
+  .footer__text {
+    position: relative;
+    left: 1rem;
+  }
+}
+.footer__social-icon {
+  color: #057152;
+}
+@media (max-width: 575.98px) {
+  .footer__social-icon {
+    position: relative;
+    left: 12rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer__social-icon {
+    position: relative;
+    left: 12rem;
+  }
+}
+@media (max-width: 397.98px) {
+  .footer__social-icon {
+    position: relative;
+    left: 3rem;
+  }
 }
 
 .footer .footer-charity-text {
@@ -1116,6 +1194,37 @@ button:hover {
   font-size: 2rem;
   font-weight: 700;
   margin: 0 0 2.7rem;
+}
+@media (max-width: 767.98px) {
+  .footer .footer-charity-text h2 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 2.7rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer .footer-charity-text h2 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 2.7rem;
+    position: relative;
+    left: 10rem;
+  }
+}
+@media (max-width: 397.98px) {
+  .footer .footer-charity-text h2 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 2.7rem;
+    position: relative;
+    left: 1rem;
+  }
 }
 
 .footer .footer-charity-text p {
@@ -1138,6 +1247,12 @@ button:hover {
 
 .footer-charity-text hr {
   margin: 3.5rem 0;
+}
+@media (max-width: 575.98px) {
+  .footer-charity-text hr {
+    margin: 3.5rem 10rem;
+    width: 100%;
+  }
 }
 @media (max-width: 397.98px) {
   .footer-charity-text hr {
@@ -1168,10 +1283,50 @@ button:hover {
 
 .footer .footer-text.one ul li i {
   color: rgba(255, 255, 255, 0.3490196078);
-  font-size: 15px;
+  font-size: 1.5rem;
   left: -7px;
   position: absolute;
-  top: 3px;
+  top: 0.3rem;
+}
+@media (max-width: 767.98px) {
+  .footer .footer-text.one ul li i {
+    color: rgba(255, 255, 255, 0.3490196078);
+    font-size: 1.5rem;
+    left: 9.5rem;
+    position: absolute;
+    top: 0.3rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer .footer-text.one ul li i {
+    color: rgba(255, 255, 255, 0.3490196078);
+    font-size: 1.5rem;
+    left: 18rem;
+    position: absolute;
+    top: 0.3rem;
+  }
+}
+@media (max-width: 397.98px) {
+  .footer .footer-text.one ul li i {
+    color: rgba(255, 255, 255, 0.3490196078);
+    font-size: 1.5rem;
+    left: 9.5rem;
+    position: absolute;
+    top: 0.3rem;
+  }
+}
+
+.footer-text__icon {
+  color: rgba(255, 255, 255, 0.3490196078);
+  font-size: 1.5rem;
+  left: 13px;
+}
+.footer-text__locate {
+  color: rgba(255, 255, 255, 0.3490196078);
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 .footer .footer-text.one ul li a {
