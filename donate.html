@@ -152,116 +152,47 @@
                 <div class="row">
                     <div class="col-md-3"></div>
                     <div class="col-md-6">
-                        <div class="volunteer-form u-margin-top-big ">
-                            <h1 class="volunteer-form__header">HopeRise Charity Volunteer Application</h1><hr class="hr-small">
-    <form action="#" method="POST">
-        <fieldset>
-            <legend><strong>Personal Information</strong></legend>
-            <label for="full-name">Full Name:</label>
-            <input type="text" id="full-name" name="full-name" required>
-
-            <label for="address">Address:</label>
-            <input type="text" id="address" name="address" required>
-
-            <label for="phone-number">Phone Number:</label>
-            <input type="tel" id="phone-number" name="phone-number" required>
-
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="dob">Date of Birth:</label>
-            <input type="date" id="dob" name="dob" required>
-        </fieldset>
-
-        <fieldset>
-            <legend><strong>Availability</strong></legend>
-            <label for="start-date">Preferred Start Date:</label>
-            <input type="date" id="start-date" name="start-date" required>
-
-            <label for="availability">Availability (Days and Times):</label>
-            <textarea id="availability" name="availability" rows="3" required></textarea>
-        </fieldset>
-
-        <fieldset>
-            <legend><strong>Volunteer Interests</strong></legend>
-            <label>Please indicate the areas you are interested in volunteering (check all that apply):</label>
-            <input type="checkbox" name="interests" value="Emergency Housing Support">Emergency Housing Support<br>
-            <input type="checkbox" name="interests" value="Vocational Training Assistance">Vocational Training Assistance<br>
-            <input type="checkbox" name="interests" value="Women’s Empowerment Programs">Women’s Empowerment Programs<br>
-            <input type="checkbox" name="interests" value="Children’s Education Support">Children’s Education Support<br>
-            <input type="checkbox" name="interests" value="Healthcare Support">Healthcare Support<br>
-            <input type="checkbox" name="interests" value="Community Outreach">Community Outreach<br>
-            <input type="checkbox" name="interests" value="Administrative Support">Administrative Support<br>
-            <input type="checkbox" name="interests" value="Fundraising and Events">Fundraising and Events<br>
-            <label for="other-interest">Other:</label>
-            <input type="text" id="other-interest" name="other-interest">
-        </fieldset>
-
-        <fieldset>
-            <legend><strong>Skills and Experience</strong></legend>
-            <label for="skills">Relevant Skills and Qualifications:</label>
-            <textarea id="skills" name="skills" rows="3"></textarea>
-
-            <label for="experience">Previous Volunteer Experience:</label>
-            <textarea id="experience" name="experience" rows="3"></textarea>
-        </fieldset>
-
-        <fieldset>
-            <legend><strong>Motivation</strong></legend>
-            <label for="motivation">Why do you want to volunteer with HopeRise Charity?</label>
-            <textarea id="motivation" name="motivation" rows="5"></textarea>
-        </fieldset>
-
-        <fieldset>
-            <legend><strong>References</strong></legend>
-            <label>Reference 1:</label>
-            <input type="text" name="ref1-name" placeholder="Name" required>
-            <input type="text" name="ref1-relationship" placeholder="Relationship" required>
-            <input type="tel" name="ref1-phone" placeholder="Phone Number" required>
-            <input type="email" name="ref1-email" placeholder="Email Address" required>
-
-            <label>Reference 2:</label>
-            <input type="text" name="ref2-name" placeholder="Name" required>
-            <input type="text" name="ref2-relationship" placeholder="Relationship" required>
-            <input type="tel" name="ref2-phone" placeholder="Phone Number" required>
-            <input type="email" name="ref2-email" placeholder="Email Address" required>
-        </fieldset>
-
-        <fieldset>
-            <legend><strong>Emergency Contact</strong></legend>
-            <label for="emergency-name">Name:</label>
-            <input type="text" id="emergency-name" name="emergency-name" required>
-
-            <label for="emergency-relationship">Relationship:</label>
-            <input type="text" id="emergency-relationship" name="emergency-relationship" required>
-
-            <label for="emergency-phone">Phone Number:</label>
-            <input type="tel" id="emergency-phone" name="emergency-phone" required>
-
-            <label for="emergency-email">Email Address:</label>
-            <input type="email" id="emergency-email" name="emergency-email">
-        </fieldset>
-
-        <fieldset>
-            <legend><strong>Additional Information</strong></legend>
-            <label for="additional-info">Is there any other information you would like us to know?</label>
-            <textarea id="additional-info" name="additional-info" rows="3"></textarea>
-        </fieldset>
-
-        <fieldset>
-            <legend><strong>Declaration</strong></legend>
-            <p>I declare that the information provided in this application is true and complete to the best of my knowledge. I understand that any false information may disqualify me from volunteering with HopeRise Charity.</p>
-
-            <label for="signature">Signature:</label>
-            <input type="text" id="signature" name="signature" required>
-
-            <label for="date">Date:</label>
-            <input type="date" id="date" name="date" required>
-        </fieldset>
-
-        <button type="submit">Submit Application</button>
-    </form>
-                        </div>          
+                        <section class="donors">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="donors_input">
+                                            <h2>DONATION NOW</h2>
+                                            <form action="#" method="post">
+                                                <p class="amount">
+                                                    <label for="usd">AMOUNT : </label>
+                                                    <input type="radio" name="usd" id="usd" checked>20usd
+                                                    <input type="radio" name="usd" id="usd">50usd
+                                                    <input type="radio" name="usd" id="usd">100usd </p>
+                                                <p class="type">
+                                                    <label for="type">TYPE : </label>
+                                                    <input type="radio" name="time" id="type" checked>One Time
+                                                    <input type="radio" name="time" id="type">Monthly
+                                                    <input type="radio" name="time" id="type">Yearly <br>
+                                                </p>
+                                                <h5>
+                                                    <input type="text" placeholder="Name">
+                                                    <input type="email" placeholder="Email">
+                                                </h5>
+                                                <h4>
+                                                    <select>
+                                                    <option>I Want To Donate For 1</option>
+                                                    <option>I Want To Donate For 2</option>
+                                                    <option>I Want To Donate For 3</option>
+                                                </select>
+                                                </h4>
+                                                <input type="submit" value="DONATION NOW">
+                                            </form>
+                                        </div>
+                                        
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        
+        
                     </div>
                     <div class="col-md-3"></div>
                     

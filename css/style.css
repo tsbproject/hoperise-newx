@@ -450,9 +450,6 @@ ol {
   background: #fff none repeat scroll 0 0;
 }
 
-.our-objective {
-  background-color: rgba(255, 255, 255, 0.3490196078);
-}
 .our-objective__item {
   height: 47rem;
   box-shadow: 0px 0.8rem 4rem 2px rgba(5, 128, 7, 0.15);
@@ -530,7 +527,6 @@ ol {
   font-weight: 600;
   text-align: center;
   position: relative;
-  top: 2rem;
   left: 10rem;
   background-color: #ffffff;
   border-radius: 3rem;
@@ -589,6 +585,30 @@ ol {
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
+}
+@media (max-width: 767.98px) {
+  .volunteer-header {
+    font-size: 2rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+@media (max-width: 575.98px) {
+  .volunteer-header {
+    font-size: 2rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+@media (max-width: 397.98px) {
+  .volunteer-header {
+    font-size: 2rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+  }
 }
 
 .carosal_volunteer {
@@ -846,14 +866,14 @@ ol {
 }
 @media (max-width: 397.98px) {
   .donors .donors_input input[type=submit] {
-    background: #fff none repeat scroll 0 0;
+    background: #ffffff none repeat scroll 0 0;
     border: 2px solid #057152;
     border-radius: 10px;
     color: #057152;
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 500;
-    margin-top: 3rem;
+    margin-top: 1rem;
     padding: 15px 40px;
   }
 }
@@ -937,6 +957,24 @@ ol {
   color: #057152;
 }
 
+.section-form {
+  justify-content: center;
+}
+
+.volunteer-form {
+  align-items: center;
+}
+.volunteer-form__header {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 4rem;
+}
+
+form {
+  margin-top: 5rem;
+}
+
 label {
   display: block;
   margin-top: 10px;
@@ -945,7 +983,7 @@ label {
 
 input[type=text], input[type=email], input[type=tel], input[type=date],
 textarea {
-  width: 70%;
+  width: 100%;
   padding: 8px;
   margin-top: 5px;
   margin-bottom: 15px;

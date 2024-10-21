@@ -131,7 +131,7 @@
 
 
 .our-objective {
-    background-color: $color-grey-1;
+    // background-color: $color-grey-1;
 
     @include media-breakpoint-down(sm) {
         // height: 60rem;
@@ -229,7 +229,7 @@
         text-align: center;
         // color: $color-primary;
         position: relative;
-        top: 2rem;
+        // top: .5rem;
         left: 10rem;
         background-color: $color-secondary-white;
         border-radius: 3rem;
@@ -309,6 +309,32 @@
     color: $color-secondary-white;
     text-transform: uppercase;
     text-align: center;
+
+    
+
+    @include media-breakpoint-down(md) {
+        font-size: $header-secondary;
+        color: $color-secondary-white;
+        text-transform: uppercase;
+        text-align: center;
+
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: $header-secondary;
+        color: $color-secondary-white;
+        text-transform: uppercase;
+        text-align: center;
+
+    }
+
+    @include media-breakpoint-down(xm) {
+        font-size: $header-secondary;
+        color: $color-secondary-white;
+        text-transform: uppercase;
+        text-align: center;
+
+    }
 }
 
 

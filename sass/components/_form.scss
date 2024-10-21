@@ -113,14 +113,14 @@
 
     @include media-breakpoint-down(xm) {
 
-        background: #fff none repeat scroll 0 0;
+        background: $color-secondary-white none repeat scroll 0 0;
         border: 2px solid $color-primary-light;
         border-radius: 10px;
         color: $color-primary-light;
         font-family: "Roboto", sans-serif;
-        font-size: 15px;
+        font-size: 1.5rem;
         font-weight: 500;
-        margin-top: 3rem;
+        margin-top: 1rem;
         padding: 15px 40px;
 
     }
@@ -222,6 +222,29 @@
 
 
 //VOLUNTEER FORM STYLE
+.section-form {
+    justify-content: center;
+
+}
+
+.volunteer-form {
+    align-items: center;
+    
+
+    &__header {
+        font-size: $header-secondary;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 4rem;
+        
+        
+    }
+}
+
+form {
+    margin-top: 5rem;
+    
+}
 
 label {
     display: block;
@@ -230,7 +253,7 @@ label {
 }
 input[type="text"], input[type="email"], input[type="tel"], input[type="date"], 
 textarea {
-    width: 70%;
+    width: 100%;
     padding: 8px;
     margin-top: 5px;
     margin-bottom: 15px;
