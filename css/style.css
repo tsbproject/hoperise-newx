@@ -1097,6 +1097,11 @@ button:hover {
   background: #2e2e2e;
   padding-top: 80px;
 }
+@media (max-width: 397.98px) {
+  .footer {
+    text-align: center;
+  }
+}
 .footer__logo {
   width: 8rem;
 }
@@ -1114,7 +1119,7 @@ button:hover {
 }
 
 .footer .footer-charity-text p {
-  color: rgb(91, 91, 91);
+  color: rgba(255, 255, 255, 0.3490196078);
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -1132,7 +1137,13 @@ button:hover {
 }
 
 .footer-charity-text hr {
-  margin: 35px 0;
+  margin: 3.5rem 0;
+}
+@media (max-width: 397.98px) {
+  .footer-charity-text hr {
+    margin: 3.5rem 2rem;
+    width: 100%;
+  }
 }
 
 .footer .footer-text h3 {
@@ -1156,7 +1167,7 @@ button:hover {
 }
 
 .footer .footer-text.one ul li i {
-  color: rgb(91, 91, 91);
+  color: rgba(255, 255, 255, 0.3490196078);
   font-size: 15px;
   left: -7px;
   position: absolute;
@@ -1164,7 +1175,7 @@ button:hover {
 }
 
 .footer .footer-text.one ul li a {
-  color: rgb(91, 91, 91);
+  color: rgba(255, 255, 255, 0.3490196078);
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -1172,7 +1183,7 @@ button:hover {
 }
 
 .footer .footer-text.two ul li a {
-  color: rgb(91, 91, 91);
+  color: rgba(255, 255, 255, 0.3490196078);
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 400;
