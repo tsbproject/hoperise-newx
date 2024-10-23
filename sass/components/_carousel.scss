@@ -131,11 +131,17 @@
 
 
 .our-objective {
-    // background-color: $color-grey-1;
+    background-color: $color-primary-dark;
+ 
 
     @include media-breakpoint-down(sm) {
         // height: 60rem;
     }
+
+    @include media-breakpoint-down(xm) {
+        height: 70rem;
+    }
+
 
     &__item {
         height: 47rem;
@@ -169,7 +175,7 @@
     &__header {
         font-size: $header-secondary;
         font-weight: 700;
-        color: $color-primary-light;
+        color: $color-secondary;
         text-align: center;
         margin-top: 1rem;
 
@@ -179,11 +185,21 @@
             color: $color-secondary-white;
         }
 
+        @include media-breakpoint-down(md) {
+
+            font-size: $header-tertiary;
+            font-weight: 500;
+            color: $color-secondary;
+            text-align: center;
+            margin-top: 1rem;
+
+        }
+
         @include media-breakpoint-down(sm) {
 
             font-size: $header-tertiary;
             font-weight: 500;
-            color: $color-primary-light;
+            color: $color-secondary;
             text-align: center;
             margin-top: 1rem;
 
@@ -193,7 +209,7 @@
 
             font-size: $header-tertiary;
             font-weight: 500;
-            color: $color-primary-light;
+            color: $color-secondary;
             text-align: center;
             margin-top: 1rem;
 
@@ -204,6 +220,7 @@
 
     &__text {
         font-size: $default-primary-font;
+        color: $color-secondary-white;
         padding: 0 2rem;
 
 

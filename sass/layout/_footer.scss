@@ -67,6 +67,9 @@
 
      &__social-icon {
         color: $color-primary-light;
+        position: relative;
+        top: 4rem;
+        right: -120rem;
 
         @include media-breakpoint-down(sm) {
             position: relative;
