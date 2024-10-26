@@ -1,0 +1,18 @@
+#map {
+    height: 500px;
+    width: 100%;
+
+    font-size: $header-secondary;
+    font-weight: 600;
+  }
+
+  .map {
+    margin-top: 10rem;
+
+
+    &__header {
+        font-size: $header-secondary;
+        font-weight: 600;
+    }
+   
+  }

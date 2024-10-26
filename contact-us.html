@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     
 </head>
 <body>
@@ -117,7 +120,7 @@
                        
                         
                         <li class="navbar-nav__item">
-                        <a class="navbar-nav__link"  href="contact.php">Contact us</a></li>    
+                        <a class="navbar-nav__link"  href="contact-us.html">Contact us</a></li>    
                             
                             
                       </ul>
@@ -148,47 +151,92 @@
         </section>
        
         
-                        <section class="donors-page">
-                            <div class="container-fluid">
+        <section class="contact-section">
+            <div class="contacts">
+                <div class="container-fluid">
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 row-cols-xl-3 g-4">
+                           
+                        <div class="col">
+                            <div class="contacts__column">        
+                                <i class=" fa fa-phone contacts__icon"> <br> <span class="contacts__text">+234 807 305 9021</span></i>
+                            </div>
+                        </div> 
+
+                        <div class="col">
+                            <div class="contacts__column">        
+                                <i class=" fa fa-envelope contacts__icon"> <br> <span class="contacts__text">info@hoperisecharity.org contact@hoperisechrity.org</span></i>
+                            </div>
+                        </div> 
+
+
+                        <div class="col">
+                            <div class="contacts__column">        
+                                <i class=" fa fa-location-arrow contacts__icon"> <br> <span class="contacts__text">DHL Estate, Arowofela,
+                                    Magboro, Ogun State, Nigeria</span></i>
+                            </div>
+                        </div>
+
+                        <div class="contact-form">
+                            <div class="container">
                                 <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="donors_input">
-                                            <h2>DONATION</h2>
-                                            <form action="#" method="post">
-                                                <p class="amount">
-                                                    <label for="usd">AMOUNT : </label>
-                                                    <input type="radio" name="usd" id="usd" checked>20usd
-                                                    <input type="radio" name="usd" id="usd">50usd
-                                                    <input type="radio" name="usd" id="usd">100usd </p>
-                                                <p class="type">
-                                                    <label for="type">TYPE : </label>
-                                                    <input type="radio" name="time" id="type" checked>One Time
-                                                    <input type="radio" name="time" id="type">Monthly
-                                                    <input type="radio" name="time" id="type">Yearly <br>
-                                                </p>
-                                                <h5>
-                                                    <input type="text" placeholder="Name">
-                                                    <input type="email" placeholder="Email">
-                                                </h5>
-                                                <h4>
-                                                    <select>
-                                                    <option>I Want To Donate For 1</option>
-                                                    <option>I Want To Donate For 2</option>
-                                                    <option>I Want To Donate For 3</option>
-                                                </select>
-                                                </h4>
-                                                <input type="submit" value="DONATE">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-8">
+                                        <h2>Do you have any question about our activities, please send us few lines of message</h2>
+                                            <form action="submit_contact.php" method="POST">
+                                            <div class="form-group">
+                                                <label for="name">Name:</label>
+                                                <input type="text" id="name" name="name" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email">Email:</label>
+                                                <input type="email" id="email" name="email" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="telephone">Telephone:</label>
+                                                <input type="tel" id="telephone" name="telephone" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="message">Message:</label>
+                                                <textarea id="message" name="message" required></textarea>
+                                            </div>
+                                            <button type="submit" class="submit-button">Send Message</button>
                                             </form>
                                         </div>
+                                    </div>
+                                    <div class="col-md-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="map" class="map">
+                            <h2 class="map__header">Our Location</h2>
+                            <div class="container-fluid">+-
+                                <div class="row">
+                                    <div class="col-md-12">
                                         
-                                           
-                                        </div>
+                                        <script>
+                                            const map = L.map('map').setView([6.661460, 3.353440], 10); 
+                                        
+                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                              attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                                            }).addTo(map);
+                                        
+                                            L.marker([6.661460, 3.353440]).addTo(map)
+                                              .bindPopup('Magboro')
+                                              .openPopup();
+                                          </script>
+
                                     </div>
                                 </div>
                             </div>
-                        </section>
-                        
-        
+                            <!-- <h2 style="text-align:center;">Our Location</h2>
+                            <div id="map"></div> -->
+
+ 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>              
                     
 
         

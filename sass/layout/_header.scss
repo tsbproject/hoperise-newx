@@ -20,7 +20,8 @@ HEADER SECTION STYLES
 .header-top {
     background: $color-primary none repeat scroll 0 0;
     height: 50px;
-    justify-items: space-around;
+    display: flex;
+   
    
     
 }
@@ -29,6 +30,7 @@ HEADER SECTION STYLES
     line-height: 50px;
     margin: 0;
     padding: 0;
+   
 }
 
  .header-top .contact p a {
@@ -71,12 +73,18 @@ HEADER SECTION STYLES
 
 
 .icon-phone {
-  color: $color-grey-1
+  color: $color-grey-1;
+  position: relative;
+  top: .7rem;
+  
 }
 
 
 .icon-email {
   color: $color-grey-1;
+  margin-right: .8rem;
+  position: relative;
+  top: .7rem;
 }
  
 

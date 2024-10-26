@@ -130,6 +130,32 @@ ol {
   font-size: 1.4rem;
 }
 
+.contacts {
+  background-color: rgba(255, 255, 255, 0.3490196078);
+  padding: 4rem 10rem;
+  height: 160rem;
+  justify-content: space-between;
+  text-align: center;
+}
+.contacts__icon {
+  margin-top: 5rem;
+  font-size: 5rem;
+  color: #b08128;
+}
+.contacts__text {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #003425;
+}
+.contacts__column {
+  box-shadow: 0 4rem 2rem rgba(1, 1, 2, 0.08);
+  background-color: transparent;
+  border-radius: 2rem;
+  height: 30rem;
+  padding: 2rem 2rem;
+  flex: 1;
+}
+
 @media (min-width: 992px) and (max-width: 1300px) {
   .header .header-bottom .menu ul li a {
     padding-left: 17px;
@@ -988,6 +1014,166 @@ ol {
   color: #057152;
 }
 
+.donors-page {
+  height: 600px;
+  background: #003425;
+}
+
+.donors-page .donors_input {
+  background: #057152 none repeat scroll 0 0;
+  float: left;
+  height: 600px;
+  text-align: center;
+  width: 100%;
+}
+@media (max-width: 991.98px) {
+  .donors-page .donors_input {
+    background: #057152 none repeat scroll 0 0;
+    float: left;
+    height: 600px;
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (max-width: 575.98px) {
+  .donors-page .donors_input {
+    background: #057152 none repeat scroll 0 0;
+    float: left;
+    height: 600px;
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (max-width: 397.98px) {
+  .donors-page .donors_input {
+    background: #057152 none repeat scroll 0 0;
+    float: left;
+    height: 600px;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.donors-page .donors_input h2,
+.donors-page .donors_image h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 75px 0 50px;
+  text-align: center;
+}
+
+.donors-page.donors_image h2 {
+  color: #000;
+}
+
+.donors-page .donors_input p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 35px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.donors-page .donors_input p input {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.donors-page .donors_input h5 {
+  margin: 65px auto 0;
+  max-width: 500px;
+}
+
+.donors-page .donors_input h5 input {
+  background: #057152 none repeat scroll 0 0;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  padding: 17px 20px;
+  width: 47%;
+}
+
+.donors-page .donors_input h5 input[type=text] {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-right: 2%;
+}
+
+.donors-page .donors_input h5 input[type=email] {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 2%;
+}
+
+.donors-page .donors_input input[type=submit] {
+  background: #fff none repeat scroll 0 0;
+  border: 2px solid #057152;
+  border-radius: 10px;
+  color: #057152;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 45px;
+  padding: 15px 40px;
+}
+@media (max-width: 575.98px) {
+  .donors-page .donors_input input[type=submit] {
+    background: #ffffff none repeat scroll 0 0;
+    border: 2px solid #057152;
+    border-radius: 10px;
+    color: #057152;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0.7rem;
+    padding: 8px 40px;
+  }
+}
+@media (max-width: 397.98px) {
+  .donors-page .donors_input input[type=submit] {
+    background: #ffffff none repeat scroll 0 0;
+    border: 2px solid #057152;
+    border-radius: 10px;
+    color: #057152;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0.7rem;
+    padding: 5px 40px;
+  }
+}
+
+.donors-page .donors_input h4 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.donors-page .donors_input h4 select {
+  width: 50rem;
+  background: #057152 none repeat scroll 0 0;
+  border: none;
+  padding: 17px 20px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+}
+@media (max-width: 397.98px) {
+  .donors-page .donors_input h4 select {
+    width: 28rem;
+  }
+}
+
 .section-form {
   justify-content: center;
 }
@@ -1041,6 +1227,68 @@ button {
 
 button:hover {
   background-color: #1e5e3f;
+}
+
+.contact-form {
+  position: relative;
+  top: 10rem;
+  width: 100%;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: flex;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.map {
+  margin-top: 10rem;
+}
+.map__header {
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .focus-grid {
@@ -1418,7 +1666,7 @@ HEADER SECTION STYLES
 .header-top {
   background: #003425 none repeat scroll 0 0;
   height: 50px;
-  justify-items: space-around;
+  display: flex;
 }
 
 .contact > p {
@@ -1460,10 +1708,15 @@ HEADER SECTION STYLES
 
 .icon-phone {
   color: rgba(255, 255, 255, 0.3490196078);
+  position: relative;
+  top: 0.7rem;
 }
 
 .icon-email {
   color: rgba(255, 255, 255, 0.3490196078);
+  margin-right: 0.8rem;
+  position: relative;
+  top: 0.7rem;
 }
 
 .navbar-brand {
