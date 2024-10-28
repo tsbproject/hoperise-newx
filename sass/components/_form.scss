@@ -111,6 +111,34 @@
     margin-top: 45px;
     padding: 15px 40px;
 
+    @include media-breakpoint-down(lg) {
+
+        background: $color-secondary-white none repeat scroll 0 0;
+        border: 2px solid $color-primary-light;
+        border-radius: 10px;
+        color: $color-primary-light;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-top: .7rem;
+        padding: 8px 40px;
+
+    }
+
+    @include media-breakpoint-down(md) {
+
+        background: $color-secondary-white none repeat scroll 0 0;
+        border: 2px solid $color-primary-light;
+        border-radius: 10px;
+        color: $color-primary-light;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-top: .7rem;
+        padding: 8px 40px;
+
+    }
+
     @include media-breakpoint-down(sm) {
 
         background: $color-secondary-white none repeat scroll 0 0;
@@ -182,6 +210,30 @@
     background-position: 50%;
    
     box-shadow: 0 1.5rem 4rem rgba($color-secondary-black, .2);
+
+
+    @include media-breakpoint-down(lg) {
+        background: #eceff1 none repeat scroll 0 0;
+        float: left;
+        width: 0;
+        height: 600px;
+    
+        
+     
+
+    }
+
+
+    @include media-breakpoint-down(md) {
+        background: #eceff1 none repeat scroll 0 0;
+        float: left;
+        width: 0;
+        height: 600px;
+    
+        
+     
+
+    }
 
 
     @include media-breakpoint-down(sm) {

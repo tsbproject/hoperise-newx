@@ -46,7 +46,37 @@
     font-family: 'Roboto', sans-serif;
     margin-top: 210px;
 
+
+    @include media-breakpoint-down(md) {
+        color: #fff;
+        font-size: 3.5rem;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 210px;
+        text-align: center;
+       
+        
+
+    }
+
     @include media-breakpoint-down(sm) {
+        color: #fff;
+        font-size: 2.8rem;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 210px;
+        text-align: center;
+       
+        
+
+    }
+
+    @include media-breakpoint-down(xm) {
+        color: #fff;
+        font-size: $header-secondary;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 210px;
         text-align: center;
        
         
@@ -68,6 +98,16 @@
         
 
     }
+
+    @include media-breakpoint-down(xm) {
+        text-align: center;
+       
+        
+
+    }
+
+
+    
 }
 
 .carosal-area .text>h5 {
@@ -85,6 +125,16 @@
     font-weight: 500;
     padding: 15px 40px;
     text-decoration: none;
+
+    @include media-breakpoint-down(sm) {
+        font-size: 12px;
+
+    }
+
+    @include media-breakpoint-down(xm) {
+        font-size: 12px;
+
+    }
 }
 
 .carosal-area .text>h5.white-button a {
@@ -131,11 +181,11 @@
 
 
 .our-objective {
-    background-color: $color-primary-dark;
+    background-color: $color-primary;
  
 
     @include media-breakpoint-down(sm) {
-        // height: 60rem;
+        height: 40rem;
     }
 
     @include media-breakpoint-down(xm) {
@@ -157,6 +207,25 @@
 
     &__img {
         height: 25rem;
+
+        @include media-breakpoint-down(xl) {
+            max-width: 100%;
+            height: 15rem;
+
+        }
+
+
+        @include media-breakpoint-down(lg) {
+            max-width: 100%;
+            height: 15rem;
+
+        }
+
+        @include media-breakpoint-down(md) {
+            max-width: 100%;
+            height: 15rem;
+
+        }
 
         @include media-breakpoint-down(sm) {
             max-width: 100%;
@@ -222,6 +291,23 @@
         font-size: $default-primary-font;
         color: $color-secondary-white;
         padding: 0 2rem;
+        height: 4rem;
+
+
+        @include media-breakpoint-down(lg) {
+            font-size: $default-primary-font-smaller;
+            text-align: center;
+            padding: 0 1rem;
+            height: 4rem;
+
+        }
+
+        @include media-breakpoint-down(md) {
+            font-size: $default-primary-font-smaller;
+            text-align: center;
+            padding: 0 1rem;
+
+        }
 
 
         @include media-breakpoint-down(sm) {
@@ -246,7 +332,7 @@
         text-align: center;
         // color: $color-primary;
         position: relative;
-        // top: .5rem;
+        top: 6rem;
         left: 10rem;
         background-color: $color-secondary-white;
         border-radius: 3rem;
@@ -254,11 +340,73 @@
         width: 17rem;
         height: 4.5rem;
         padding: 1.5rem 3rem;
+       
 
 
         &:hover {
             background-color: $color-primary-light;
         }
+
+        @include media-breakpoint-down(xl) {
+            font-size: $default-primary-font-small;
+            font-family: "Roboto" sans-serif;
+            font-weight: 600;
+            text-align: center;
+            // color: $color-primary;
+            position: relative;
+            top: 7rem;
+            left: 10rem;
+            background-color: $color-secondary-white;
+            border-radius: 2rem;
+            border-style: ridge;
+            width: 17rem;
+            // height: 2rem;
+            padding: 1.4rem 3rem;
+            
+            
+    
+           }
+    
+
+        @include media-breakpoint-down(lg) {
+           
+            font-size: $default-primary-font-smaller;
+            font-family: "Roboto" sans-serif;
+            font-weight: 500;
+            text-align: center;
+            // color: $color-primary;
+            position: relative;
+            top: 4rem;
+            left: 4rem;
+            background-color: $color-secondary-white;
+            border-radius: 3rem;
+            border-style: ridge;
+            width: 17rem;
+            height: 4.5rem;
+            padding: 1.5rem 3rem;
+    
+           }
+    
+
+        @include media-breakpoint-down(md) {
+           
+            font-size: $default-primary-font-smaller;
+            font-family: "Roboto" sans-serif;
+            font-weight: 500;
+            text-align: center;
+            // color: $color-primary;
+            position: relative;
+            top: 1rem;
+            left: 4rem;
+            background-color: $color-secondary-white;
+            border-radius: 3rem;
+            border-style: ridge;
+            width: 17rem;
+            height: 4.5rem;
+            padding: 1.5rem 3rem;
+    
+           }
+    
        
 
 
@@ -289,7 +437,7 @@
         text-align: center;
         // color: $color-primary;
         position: relative;
-        top: 1rem;
+        top: 5rem;
         left: 10rem;
         background-color: $color-secondary-white;
         border-radius: 3rem;

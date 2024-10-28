@@ -14,7 +14,7 @@
         border-radius: 2rem;
 
         @include media-breakpoint-down(xl) {
-        height: 35rem;
+        height: 25rem;
         padding: 1rem 2rem;
         background-color: $color-grey-3;
         box-shadow: 0 2rem 6rem rgba(0,0,0,.3);
@@ -26,21 +26,47 @@
         }
 
         @include media-breakpoint-down(lg) {
+
+            height: 35rem;
+            padding: 1rem 2rem;
+            background-color: $color-grey-3;
+            box-shadow: 0 2rem 6rem rgba(0,0,0,.3);
+            border-radius: 2rem;
+    
            
 
         }
 
 
         @include media-breakpoint-down(md) {
+
+            height: 35rem;
+            padding: 1rem 2rem;
+            background-color: $color-grey-3;
+            box-shadow: 0 2rem 6rem rgba(0,0,0,.3);
+            border-radius: 2rem;
+    
             
         }
 
         @include media-breakpoint-down(sm) {
+            height: 25rem;
+            padding: 1rem 2rem;
+            background-color: $color-grey-3;
+            box-shadow: 0 2rem 6rem rgba(0,0,0,.3);
+            border-radius: 2rem;
+    
             
 
         }
 
         @include media-breakpoint-down(xm) {
+            height: 30rem;
+            padding: 1rem 2rem;
+            background-color: $color-grey-3;
+            box-shadow: 0 2rem 6rem rgba(0,0,0,.3);
+            border-radius: 2rem;
+    
            
 
         }
@@ -73,7 +99,7 @@
             top: 0;
             right: 0;
             bottom: 40rem;
-            left: 8rem;
+            left: 22rem;
            
 
         }
@@ -103,6 +129,7 @@
             right: 0;
             bottom: 40rem;
             left: 19rem;
+           
 
         }
 
@@ -111,7 +138,7 @@
             top: 0;
             right: 0;
             bottom: 40rem;
-            left: 10rem;
+            left: 12rem;
 
         }
 

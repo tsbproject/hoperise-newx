@@ -71,6 +71,24 @@
         top: 4rem;
         right: -120rem;
 
+        @include media-breakpoint-down(xl) {
+            position: relative;
+            left: 78rem;
+       
+         }
+
+        @include media-breakpoint-down(lg) {
+            position: relative;
+            left: 65rem;
+       
+         }
+
+        @include media-breakpoint-down(md) {
+            position: relative;
+            left: 12rem;
+       
+         }
+
         @include media-breakpoint-down(sm) {
             position: relative;
             left: 12rem;
@@ -79,13 +97,15 @@
 
         @include media-breakpoint-down(sm) {
             position: relative;
+            top: -2rem;
             left: 12rem;
        
          }
 
          @include media-breakpoint-down(xm) {
             position: relative;
-            left: 3rem;
+            top: -2rem;
+            left: 2.1rem;
        
          }
     }

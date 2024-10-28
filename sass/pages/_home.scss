@@ -24,6 +24,54 @@
         text-transform: uppercase;
         color: $color-primary-light;
 
+
+        @include media-breakpoint-down(xl) {
+
+            font-size: $header-primary;
+            font-weight: 600;
+            text-align: center;
+            font-family: "Oxygen", sans-serif;
+            text-transform: uppercase;
+            color: $color-primary-light;
+
+        }
+
+
+        @include media-breakpoint-down(lg) {
+
+            font-size: $header-secondary;
+            font-weight: 600;
+            text-align: center;
+            font-family: "Oxygen", sans-serif;
+            text-transform: uppercase;
+            color: $color-primary-light;
+
+        }
+
+
+        @include media-breakpoint-down(md) {
+
+            font-size: $header-tertiary;
+            font-weight: 600;
+            text-align: center;
+            font-family: "Oxygen", sans-serif;
+            text-transform: uppercase;
+            color: $color-primary-light;
+
+        }
+
+
+        @include media-breakpoint-down(sm) {
+
+            font-size: $header-tertiary;
+            font-weight: 600;
+            text-align: center;
+            font-family: "Oxygen", sans-serif;
+            text-transform: uppercase;
+            color: $color-primary-light;
+
+        }
+
         @include media-breakpoint-down(xm) {
 
             font-size: $header-tertiary;

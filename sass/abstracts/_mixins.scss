@@ -1,7 +1,7 @@
 // Mixin for media queries (down)
 @mixin media-breakpoint-down($breakpoint) {
   @if $breakpoint == xm {
-    @media (max-width: 397.98px) { @content; }
+    @media (max-width: 375.98px) { @content; }
   } @else if $breakpoint == sm {
     @media (max-width: 575.98px) { @content; }
   } @else if $breakpoint == md {
