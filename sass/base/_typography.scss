@@ -116,44 +116,19 @@
   
 }
 
+.contact-section {
 
-.contacts {
-    background-color: $color-grey-1;
-    padding: 4rem 10rem;
-    height: 160rem;
-    justify-content: space-between;
-    text-align: center;
-   
+    @include media-breakpoint-down(md) {
+        height: 230rem;
+   }
 
-
-    &__icon {
-        margin-top: 5rem;
-        font-size: 5rem;
-        color: $color-secondary;
-    }
-    
-
-    &__text {
-        font-size: $header-secondary;
-        font-weight: 800;
-        color: $color-primary;
-
-       
-        
-    }
-
-
-
-
-
-    &__column {
-        box-shadow: 0 4rem 2rem rgba(1, 1, 2, .08);
-        background-color: transparent;
-        border-radius: 2rem;
-        height: 30rem;
-        padding: 2rem 2rem;
-        flex: 1;
-
-
-    }
+    @include media-breakpoint-down(sm) {
+        height: 230rem;
+   }
+     
+    @include media-breakpoint-down(xm) {
+          height: 230rem;
+     }
 }
+
+

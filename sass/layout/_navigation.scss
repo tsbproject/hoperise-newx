@@ -10,9 +10,38 @@
 
 
 .navbar-nav {
+  position: relative;
 
 
     margin-left: 7rem;
+
+    @include media-breakpoint-down(xl) {
+      margin-left: -30rem;
+
+      
+          
+    }
+
+    @include media-breakpoint-down(lg) {
+      margin-left: 5rem;
+
+      
+          
+    }
+
+    @include media-breakpoint-down(md) {
+      margin-left: 5rem;
+
+      
+          
+    }
+
+    @include media-breakpoint-down(md) {
+      margin-left: 5rem;
+
+      
+          
+    }
 
 
     @include media-breakpoint-down(sm) {
@@ -38,6 +67,12 @@
         margin-right: 3rem;
       }
 
+      @include media-breakpoint-down(xl) {
+    
+        
+        
+      }
+
      
 
      
@@ -51,11 +86,18 @@
       text-transform: uppercase;
       text-decoration: none;
 
+      @include media-breakpoint-down(xl) {
+        font-size: $default-primary-font-small;
+        
+       
+       
+        
+        
+      }
 
-     
 
-  
-      @include media-breakpoint-down(sm) {
+     @include media-breakpoint-down(sm) {
+        font-size: $default-primary-font-small;
         color: $color-secondary-white;
       }
     }

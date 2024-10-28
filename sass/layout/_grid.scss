@@ -13,6 +13,39 @@
         box-shadow: 0 2rem 6rem rgba(0,0,0,.3);
         border-radius: 2rem;
 
+        @include media-breakpoint-down(xl) {
+        height: 35rem;
+        padding: 1rem 2rem;
+        background-color: $color-grey-3;
+        box-shadow: 0 2rem 6rem rgba(0,0,0,.3);
+        border-radius: 2rem;
+
+            
+           
+
+        }
+
+        @include media-breakpoint-down(lg) {
+           
+
+        }
+
+
+        @include media-breakpoint-down(md) {
+            
+        }
+
+        @include media-breakpoint-down(sm) {
+            
+
+        }
+
+        @include media-breakpoint-down(xm) {
+           
+
+        }
+       
+
     }
 
     &__icon {
@@ -32,6 +65,17 @@
     
         &:hover {
             color: $color-secondary;
+        }
+
+        @include media-breakpoint-down(xl) {
+            font-size: 4rem;
+            position: relative;
+            top: 0;
+            right: 0;
+            bottom: 40rem;
+            left: 8rem;
+           
+
         }
 
         @include media-breakpoint-down(lg) {
@@ -93,4 +137,230 @@
 
     }
 
+}
+
+
+////////////////////////////////////////
+/// CONTACT US GRID 
+
+.contacts {
+    background-color: $color-grey-1;
+    padding: 4rem 10rem;
+    height: 160rem;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+
+    @include media-breakpoint-down(xl) {
+        background-color: $color-grey-1;
+        padding: 3rem 2rem;
+        height: 160rem;
+        justify-content: space-between;
+        text-align: center;
+    
+
+    }
+   
+
+    @include media-breakpoint-down(lg) {
+        background-color: $color-grey-1;
+        padding: 3rem 2rem;
+        height: 160rem;
+        justify-content: space-between;
+        text-align: center;
+    
+
+    }
+
+    @include media-breakpoint-down(md) {
+        background-color: $color-grey-1;
+        padding: 3rem 2rem;
+        height: 160rem;
+        justify-content: space-between;
+        text-align: center;
+    
+
+    }
+
+    @include media-breakpoint-down(sm) {
+        background-color: $color-grey-1;
+        padding: 3rem 2rem;
+        height: 160rem;
+        justify-content: space-between;
+        text-align: center;
+    
+
+    }
+   
+
+    @include media-breakpoint-down(xm) {
+        background-color: $color-grey-1;
+        padding: 3rem 2rem;
+        height: 160rem;
+        justify-content: space-between;
+        text-align: center;
+    
+
+    }
+    
+   
+    &__icon,
+    &__text {
+
+      display: block;
+
+    }
+
+    &__icon {
+        margin-top: 5rem;
+        font-size: 5rem;
+        color: $color-secondary;
+       
+        @include media-breakpoint-down(lg) {
+
+            margin-top: 9rem;
+            font-size: 6rem;
+            color: $color-secondary;
+              
+        }
+
+        @include media-breakpoint-down(md) {
+
+            margin-top: 7rem;
+            font-size: 5rem;
+            color: $color-secondary;
+              
+        }
+
+        @include media-breakpoint-down(sm) {
+
+            margin-top: 9rem;
+            font-size: 3rem;
+            color: $color-secondary;
+              
+        }
+
+        @include media-breakpoint-down(xm) {
+
+            margin-top: 9rem;
+            font-size: 3rem;
+            color: $color-secondary;
+              
+        }
+    }
+
+
+    
+    
+
+    &__text {
+        font-size: $header-secondary;
+        font-weight: 800;
+        color: $color-primary;
+        line-height: 1.4;
+        position: relative;
+
+        @include media-breakpoint-down(lg) {
+
+            font-size: $header-primary;
+            font-weight: 800;
+            color: $color-primary;
+            line-height: 1.4;
+              
+        }
+
+        @include media-breakpoint-down(md) {
+
+            font-size: $header-primary;
+            font-weight: 800;
+            color: $color-primary;
+            line-height: 1.4;
+
+            
+              
+        }
+
+        @include media-breakpoint-down(sm) {
+            font-size: $header-secondary;
+            font-weight: 800;
+            color: $color-primary;
+            line-height: 1.4;
+
+            
+              
+        }
+
+        @include media-breakpoint-down(xm) {
+            font-size: $header-secondary;
+            font-weight: 800;
+            color: $color-primary;
+            line-height: 1.4;
+
+            
+              
+        }
+      
+
+       
+        
+    }
+
+
+
+
+
+    &__column {
+        box-shadow: 0 4rem 2rem rgba(1, 1, 2, .08);
+        background-color: transparent;
+        border-radius: 2rem;
+        height: 30rem;
+        padding: 2rem 2rem;
+        // flex: 1;  
+
+
+    }
+
+
+    &__bullet {
+        list-style-type:circle ;
+        position: absolute;
+        left: 3.8rem;
+
+        @include media-breakpoint-down(xl) {
+            list-style-type:circle ;
+            position: absolute;
+            left: -1rem;
+    
+        }
+
+        @include media-breakpoint-down(lg) {
+            list-style-type:circle ;
+            position: absolute;
+            left: 18rem;
+    
+        }
+
+        @include media-breakpoint-down(md) {
+            list-style-type:circle ;
+            position: absolute;
+            left: 6rem;
+    
+        }
+
+        @include media-breakpoint-down(sm) {
+            list-style-type:circle ;
+            position: absolute;
+            left: 8rem;
+    
+        }
+
+        @include media-breakpoint-down(xm) {
+            list-style-type:circle ;
+            position: absolute;
+            left: -1rem;
+    
+        }
+        
+       
+    }
 }
