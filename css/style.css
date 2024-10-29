@@ -40,7 +40,6 @@ ol {
 }
 
 .section-about {
-  justify-content: space-evenly;
   margin-bottom: 4rem;
 }
 
@@ -605,6 +604,14 @@ ol {
   color: #ffffff;
   padding: 0 2rem;
   height: 4rem;
+}
+@media (max-width: 1199.98px) {
+  .our-objective__text {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0 1rem;
+    height: 4rem;
+  }
 }
 @media (max-width: 991.98px) {
   .our-objective__text {
@@ -1482,7 +1489,7 @@ button:hover {
 }
 @media (max-width: 1199.98px) {
   .focus-grid__col {
-    height: 25rem;
+    height: 35rem;
     padding: 1rem 2rem;
     background-color: rgba(255, 255, 255, 0.8431372549);
     box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
@@ -1548,7 +1555,7 @@ button:hover {
     top: 0;
     right: 0;
     bottom: 40rem;
-    left: 22rem;
+    left: 8rem;
   }
 }
 @media (max-width: 991.98px) {
@@ -1595,6 +1602,17 @@ button:hover {
   text-transform: uppercase;
   color: #b08128;
   border-style: outs;
+}
+@media (max-width: 1199.98px) {
+  .focus-grid__header {
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: "Oxygen", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #b08128;
+    border-style: outs;
+  }
 }
 .focus-grid__text {
   font-size: 1.4rem;
@@ -1773,7 +1791,7 @@ button:hover {
   .contacts__bullet {
     list-style-type: circle;
     position: absolute;
-    left: -1rem;
+    left: -3rem;
   }
 }
 
@@ -1801,7 +1819,8 @@ button:hover {
 }
 @media (max-width: 767.98px) {
   .footer__logo {
-    text-align: center;
+    position: relative;
+    left: 10rem;
   }
 }
 @media (max-width: 575.98px) {
@@ -1818,7 +1837,8 @@ button:hover {
 }
 @media (max-width: 767.98px) {
   .footer__text {
-    text-align: center;
+    position: relative;
+    left: 10rem;
   }
 }
 @media (max-width: 575.98px) {
@@ -1854,7 +1874,8 @@ button:hover {
 @media (max-width: 767.98px) {
   .footer__social-icon {
     position: relative;
-    left: 12rem;
+    top: -2rem;
+    left: 7rem;
   }
 }
 @media (max-width: 575.98px) {
@@ -1896,6 +1917,8 @@ button:hover {
     font-size: 2rem;
     font-weight: 700;
     margin: 0 0 2.7rem;
+    position: relative;
+    left: 10rem;
   }
 }
 @media (max-width: 575.98px) {
@@ -1928,9 +1951,42 @@ button:hover {
   font-weight: 400;
   line-height: 30px;
 }
+@media (max-width: 767.98px) {
+  .footer .footer-charity-text p {
+    color: rgba(255, 255, 255, 0.3490196078);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 30px;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer .footer-charity-text p {
+    color: rgba(255, 255, 255, 0.3490196078);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 30px;
+  }
+}
+@media (max-width: 375.98px) {
+  .footer .footer-charity-text p {
+    color: rgba(255, 255, 255, 0.3490196078);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 30px;
+  }
+}
 
 .footer .footer-charity-text hr {
   border-color: rgb(91, 91, 91);
+}
+@media (max-width: 767.98px) {
+  .footer .footer-charity-text hr {
+    margin-left: 10rem;
+    width: 100%;
+  }
 }
 
 .footer .footer-charity-text p i {
@@ -1961,6 +2017,34 @@ button:hover {
   font-size: 20px;
   font-weight: 700;
   margin: 8px 0 25px;
+}
+@media (max-width: 767.98px) {
+  .footer .footer-text h3 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    position: relative;
+    right: 12rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer .footer-text h3 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 8px 0 25px;
+  }
+}
+@media (max-width: 375.98px) {
+  .footer .footer-text h3 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 8px 0 25px;
+  }
 }
 
 .footer .footer-text ul {
@@ -2010,10 +2094,19 @@ button:hover {
   }
 }
 
+.footer-text {
+  position: relative;
+}
 .footer-text__icon {
   color: rgba(255, 255, 255, 0.3490196078);
   font-size: 1.5rem;
   left: 13px;
+}
+@media (max-width: 767.98px) {
+  .footer-text__icon {
+    position: absolute;
+    left: -15rem;
+  }
 }
 .footer-text__locate {
   color: rgba(255, 255, 255, 0.3490196078);
@@ -2021,6 +2114,12 @@ button:hover {
   font-size: 15px;
   font-weight: 400;
   line-height: 30px;
+}
+@media (max-width: 767.98px) {
+  .footer-text__locate {
+    position: relative;
+    right: 12rem;
+  }
 }
 
 .footer .footer-text.one ul li a {
@@ -2037,6 +2136,35 @@ button:hover {
   font-size: 15px;
   font-weight: 400;
   text-decoration: none;
+}
+@media (max-width: 767.98px) {
+  .footer .footer-text.two ul li a {
+    color: rgba(255, 255, 255, 0.3490196078);
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+    right: 12rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer .footer-text.two ul li a {
+    color: rgba(255, 255, 255, 0.3490196078);
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+}
+@media (max-width: 375.98px) {
+  .footer .footer-text.two ul li a {
+    color: rgba(255, 255, 255, 0.3490196078);
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+  }
 }
 
 .footer .footer-text ul li {

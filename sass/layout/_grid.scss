@@ -14,7 +14,7 @@
         border-radius: 2rem;
 
         @include media-breakpoint-down(xl) {
-        height: 25rem;
+        height: 35rem;
         padding: 1rem 2rem;
         background-color: $color-grey-3;
         box-shadow: 0 2rem 6rem rgba(0,0,0,.3);
@@ -99,7 +99,7 @@
             top: 0;
             right: 0;
             bottom: 40rem;
-            left: 22rem;
+            left: 8rem;
            
 
         }
@@ -153,6 +153,18 @@
         color: $color-secondary;
         // border-bottom: .1rem solid $color-primary-light;
         border-style: outs;
+
+        @include media-breakpoint-down(xl) {
+            font-size: 1.4rem;
+            font-weight: 600;
+            font-family: "Oxygen", sans-serif;
+            text-align: center;
+            text-transform: uppercase;
+            color: $color-secondary;
+            // border-bottom: .1rem solid $color-primary-light;
+            border-style: outs;
+
+        }
 
     }
 
@@ -384,7 +396,7 @@
         @include media-breakpoint-down(xm) {
             list-style-type:circle ;
             position: absolute;
-            left: -1rem;
+            left:-3rem;
     
         }
         
