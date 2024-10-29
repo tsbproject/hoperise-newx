@@ -1811,7 +1811,7 @@ button:hover {
 }
 @media (max-width: 375.98px) {
   .footer {
-    padding: 0 1.3rem;
+    padding: 0 0.9rem;
   }
 }
 .footer__logo {
@@ -2127,6 +2127,7 @@ button:hover {
 }
 @media (max-width: 375.98px) {
   .footer-text__icon {
+    margin-top: 0.8rem;
     position: absolute;
     left: 0.1rem;
   }
