@@ -1,7 +1,8 @@
 
 .footer {
     background: #2e2e2e;
-    padding-top: 80px;
+    padding-top: 8rem;
+   
     
 
     @include media-breakpoint-down(md) {
@@ -16,7 +17,8 @@
 
 
     @include media-breakpoint-down(xm) {
-       text-align: center;
+    //    text-align: center;
+       padding:0  1.3rem ; 
     }
    
     
@@ -201,6 +203,7 @@
         font-size: $default-primary-font-small;
         font-weight: 400;
         line-height: 30px;
+        padding:0 2rem ;
            
     }
 
@@ -362,7 +365,7 @@
 
         @include media-breakpoint-down(xm) {
             position: absolute;
-            left: 2rem;
+            left: 0.1rem;
     }
 
 
@@ -394,7 +397,7 @@
             font-size: 1.3rem;
             text-align: right;
             position: relative;
-            left: 1.2rem;
+            left: .8rem;
     }
 
     }
