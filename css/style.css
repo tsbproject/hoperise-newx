@@ -1988,6 +1988,16 @@ button:hover {
     width: 100%;
   }
 }
+@media (max-width: 575.98px) {
+  .footer .footer-charity-text hr {
+    width: 100%;
+  }
+}
+@media (max-width: 375.98px) {
+  .footer .footer-charity-text hr {
+    width: 50%;
+  }
+}
 
 .footer .footer-charity-text p i {
   color: #5b5b5b;
@@ -2034,7 +2044,7 @@ button:hover {
     font-family: "Roboto", sans-serif;
     font-size: 1.7rem;
     font-weight: 700;
-    margin: 8px 0 25px;
+    margin-left: 25rem;
   }
 }
 @media (max-width: 375.98px) {
@@ -2043,7 +2053,7 @@ button:hover {
     font-family: "Roboto", sans-serif;
     font-size: 1.7rem;
     font-weight: 700;
-    margin: 8px 0 25px;
+    margin-left: 22rem;
   }
 }
 
@@ -2108,6 +2118,18 @@ button:hover {
     left: -15rem;
   }
 }
+@media (max-width: 575.98px) {
+  .footer-text__icon {
+    position: absolute;
+    left: 10rem;
+  }
+}
+@media (max-width: 375.98px) {
+  .footer-text__icon {
+    position: absolute;
+    left: 2rem;
+  }
+}
 .footer-text__locate {
   color: rgba(255, 255, 255, 0.3490196078);
   font-family: "Roboto", sans-serif;
@@ -2119,6 +2141,22 @@ button:hover {
   .footer-text__locate {
     position: relative;
     right: 12rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer-text__locate {
+    font-size: 1.3rem;
+    text-align: right;
+    position: relative;
+    left: 1.8rem;
+  }
+}
+@media (max-width: 375.98px) {
+  .footer-text__locate {
+    font-size: 1.3rem;
+    text-align: right;
+    position: relative;
+    left: 1.2rem;
   }
 }
 
@@ -2155,6 +2193,7 @@ button:hover {
     font-size: 15px;
     font-weight: 400;
     text-decoration: none;
+    margin-left: 25rem;
   }
 }
 @media (max-width: 375.98px) {
@@ -2164,6 +2203,7 @@ button:hover {
     font-size: 15px;
     font-weight: 400;
     text-decoration: none;
+    margin-left: 22rem;
   }
 }
 

@@ -215,6 +215,18 @@
 
              width: 100%;
     }
+
+    @include media-breakpoint-down(sm) {
+        // margin-left: 1rem;
+
+        width: 100%;
+}
+
+    @include media-breakpoint-down(xm) {
+        // margin-left: 1rem;
+
+        width: 50%;
+}
 }
 
 .footer .footer-charity-text p i {
@@ -263,7 +275,7 @@
         font-family: "Roboto", sans-serif;
         font-size: $header-tertiary;
         font-weight: 700;
-        margin: 8px 0 25px;
+        margin-left: 25rem;
     
            
     }
@@ -273,7 +285,7 @@
         font-family: "Roboto", sans-serif;
         font-size: $header-tertiary;
         font-weight: 700;
-        margin: 8px 0 25px;
+        margin-left: 22rem;
     
            
     }
@@ -342,6 +354,21 @@
             left: -15rem;
     }
 
+        @include media-breakpoint-down(sm) {
+            position: absolute;
+            left: 10rem;
+    }
+
+
+        @include media-breakpoint-down(xm) {
+            position: absolute;
+            left: 2rem;
+    }
+
+
+
+
+
     }
 
     &__locate {
@@ -355,6 +382,20 @@
                 position: relative;
                 right: 12rem;
         }
+
+        @include media-breakpoint-down(sm) {
+            font-size: 1.3rem;
+            text-align: right;
+            position: relative;
+            left: 1.8rem;
+    }
+
+        @include media-breakpoint-down(xm) {
+            font-size: 1.3rem;
+            text-align: right;
+            position: relative;
+            left: 1.2rem;
+    }
 
     }
 }
@@ -395,6 +436,7 @@
         font-size: 15px;
         font-weight: 400;
         text-decoration: none;
+        margin-left: 25rem;
     
         
             
@@ -406,6 +448,7 @@
         font-size: 15px;
         font-weight: 400;
         text-decoration: none;
+        margin-left: 22rem;
     
         
             
